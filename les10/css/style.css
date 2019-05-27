@@ -1,0 +1,25 @@
+.center{
+    text-align: center;
+}
+h1{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 70px 0 82px 0 ;
+}
+.img{
+    margin-bottom: 19px;
+}
+span{
+    color: #333333;
+text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+@media (max-width: 576px) {
+    .mob{
+        order: -1;
+    }
+}

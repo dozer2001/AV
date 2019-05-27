@@ -1,0 +1,286 @@
+.d-flex {
+    display: flex;
+}
+.pa_zero{
+    padding: 0;
+}
+.right{
+    text-align: right;
+}
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1145px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 73px;
+    padding-bottom: 156px;
+    background-color: #f4f5f7;
+}
+
+.header-box {
+    justify-content: space-between;
+}
+
+.header span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #95989a;
+}
+
+/*header end*/
+.sell-bock {
+    margin-bottom: 91px;
+    padding-bottom: 191px;
+}
+
+.icons img {
+    margin-left: 32px;
+}
+
+.icons img:first-child {
+    height: 21px;
+}
+.main-text{
+    color: #32325f
+}
+.description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.subtitle{
+    height: 24px;
+    color: #32325f;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sell-text{
+    width: 516px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.sell-bock {
+    background-color: #f4f5f7;
+}
+
+.price-tag {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 400;
+    color: #525f7f;
+}
+.content{
+    justify-content: space-between;
+
+}
+.buttons {
+    margin-top: 49px !important;
+    outline: none;
+}
+
+.buttons button:last-child {
+    margin-left: 30px;
+
+}
+
+.btn-green {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    height: 66px;
+    padding: 21px 31px 20px 31px;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    border-radius: 6px;
+    background-color: #2dce89;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-green:hover {
+    background-color: #5e72e4;
+}
+
+.btn-blue {
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    height: 66px;
+    border-radius: 6px;
+    padding: 21px 31px 20px 31px;
+    background-color: #5e72e4;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-blue:hover {
+    background-color: #2dce89;
+}
+
+/*section book start*/
+
+.book {
+    color: #32325f;
+    margin-bottom: 131px;
+}
+
+.book span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.book_content {
+    margin-top: 14px;
+}
+
+.book_content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 99px;
+}
+
+.icon {
+    margin-bottom: 40px;
+}
+
+.icon img {
+    width: 74px;
+    height: 85px;
+}
+
+.text {
+    width: 258px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #525f7f;
+}
+
+.card {
+    margin-left: 36px;
+    border: none;
+}
+.card span{
+    color: #525f7f;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card:first-child {
+    margin: 0;
+}
+.header .navbar {
+    padding: 0;
+}
+/*section photo */
+.photo{
+    background-color: #f4f5f7;
+    padding-top: 70px;
+    padding-bottom: 112px;
+
+}
+.photo span{
+    height: 24px;
+    color: #32325f;
+    font-size: 20px;
+    font-weight: 400;
+}
+.photo h2{
+    color: #32325f;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 64px;
+}
+.one_photo{
+    margin-bottom: 36px;
+    width: 362px;
+    height: 254px;
+
+
+}
+.one_photo:nth-child(1){
+    background:url("../img/beard-1867175_1920.png") 100% 100% no-repeat;
+    background-size: cover; /* Масштабируем фон */
+}
+.one_photo:nth-child(2){
+     background:url("../img/man-919045_1920.png") 100% 100% no-repeat;
+     background-size: cover; /* Масштабируем фон */
+ }
+.one_photo:nth-child(3){
+    background:url("../img/woman-3990680_1920.png") 100% 100% no-repeat;
+    background-size: cover; /* Масштабируем фон */
+}
+.one_photo:nth-child(4){
+    background:url("../img/portrait-1462944_1920.png") 100% 100% no-repeat;
+    background-size: cover; /* Масштабируем фон */
+}
+.one_photo:nth-child(5){
+    background:url("../img/man-1209494_1920.png") 100% 100% no-repeat;
+    background-size: cover; /* Масштабируем фон */
+}
+.one_photo:nth-child(6){
+    background:url("../img/man-1246508_1920.png") 100% 100% no-repeat;
+    background-size: cover; /* Масштабируем фон */
+}
+
+
+.block_photo{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*footer*/
+footer {
+    background-color: #32325f;
+    color: #ffff;
+    padding-top: 73px;
+    padding-bottom: 104px;
+}
+
+.columns {
+       justify-content: space-between;
+}
+
+.column {
+    width: 258px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.footer_text span {
+    font-size: 16px;
+    font-weight: 700;
+}
+.contacts  a{
+    margin-top: 5px;
+    height: 66px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration:none;
+}

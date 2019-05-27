@@ -1,0 +1,40 @@
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    border: solid;  
+}
+body{
+    background-color: #F1EAE8;
+
+}
+.weight{
+    font-weight: 700;
+}
+.italik{
+    font-style: italic;
+}
+.decoration{
+    text-decoration: underline;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
+.sideBar{
+    position: fixed;
+    background-color: #F1EAE8;
+    right: 0;
+}
+.first{
+    color: #c8946e;
+}
+.second{
+    color: #4f83d9;
+}
+.third{
+    color: #33cb74;
+}
+.four{
+    color: #c80e10;
+}
+.five{
+    color: #e523e6;
+}
