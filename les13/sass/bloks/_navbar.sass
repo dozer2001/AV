@@ -13,6 +13,11 @@
    flex-direction: column
  &__buttons
    margin-left: 30px
+   cursor: pointer
+   outline: none
+   transition: all 0.5s ease
+   &:hover
+     background-color: darken($main-color,5%)
  &__phone
    display: inline-block
    color: $text-color
@@ -20,6 +25,7 @@
    font-weight: 400
    text-decoration: none
    margin-top: 10px
+
 @media (max-width: 768px)
   .navbar
    &__contacts
@@ -27,5 +33,6 @@
    &__buttons
      font-size: 12px
      padding: 15px 26px
+
    &__logo
      width: 90px
